@@ -1,0 +1,30 @@
+.app {
+    text-align: center;
+  }
+  
+  input {
+    margin: 20px;
+  }
+  
+  .stock-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .stock-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    width: 200px;
+  
+    &.high-increase {
+      border-color: green;
+    }
+  
+    &.high-decrease {
+      border-color: red;
+    }
+  }
+  
